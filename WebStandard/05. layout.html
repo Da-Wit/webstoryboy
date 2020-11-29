@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout05</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #header-wrap {
+            background: #8d6e63;
+        }
+
+        #banner-wrap {
+            background: #a1887f;
+        }
+
+        #content-wrap {
+            background: #bcaaa4;
+        }
+
+        #footer-wrap {
+            background: #d7ccc8;
+        }
+
+        .header-container {
+            width: 1000px;
+            margin: 0 auto;
+            height: 100px;
+            background: #3e2723;
+            line-height: 100px;
+        }
+
+        .banner-container {
+            width: 1000px;
+            line-height: 300px;
+            height: 300px;
+            margin: 0 auto;
+            background: #4e342e;
+        }
+
+        .content-container {
+            background: #5d4037;
+            width: 1000px;
+            height: 500px;
+            line-height: 500px;
+            margin: 0 auto;
+        }
+
+        .footer-container {
+            background: #6d4c41;
+            width: 1000px;
+            margin: 0 auto;
+            height: 100px;
+            line-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-container">banner</div>
+        </div>
+        <div id="content-wrap">
+            <div class="content-container">content</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-container">footer</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
